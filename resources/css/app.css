@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personaliza la scrollbar para Chrome */
+.custom-scrollbar::-webkit-scrollbar {
+    width:10%;
+    height: 0.5rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background: #717F95 !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #b32828;
+}
+
