@@ -16,15 +16,15 @@
                     <div class="w-full flex justify-center items-center gap-5">
                         @if(Auth::user()->checkAdmin())
                         <div class="w-3/5 border-green-100 p-2">
-                            <example-card :img-dynamic="'{{asset('img/BRILLA.png')}}'" title="Managment" ruta-link="managment"></example-card>
+                            <example-card :img-dynamic="'{{asset('img/cars.png')}}'" title="Managment" ruta-link="managment"></example-card>
                         </div>
                         @endif
                         <div class="w-3/5 h-1/3">
-                             <example-card :img-dynamic="'{{asset('img/BRILLA.png')}}'" title="Cashier" ruta-link="cashier"></example-card>
+                             <example-card :img-dynamic="'{{asset('img/cars.png')}}'" title="Cashier" ruta-link="cashier"></example-card>
                         </div>
                         @if(Auth::user()->checkAdmin())
                         <div class="w-3/5 h-1/3">
-                             <example-card :img-dynamic="'{{asset('img/BRILLA.png')}}'" title="Report" ruta-link="report"></example-card>
+                             <example-card :img-dynamic="'{{asset('img/cars.png')}}'" title="Report" ruta-link="report"></example-card>
                         </div>
                         @endif
                     </div>
